@@ -1,43 +1,40 @@
-🕹️ Tic Tac Toe - 3-Move Variant
-Welcome to Tic Tac Toe with a twist!
-In this special version of the classic game, each player can have only 3 active moves on the board at a time, making the gameplay more dynamic and strategic.
+# 🕹️ Tic Tac Toe - 3-Move Variant
 
-📋 How the Game Works
-The board is a 3x3 grid.
+Welcome to **Tic Tac Toe** with a twist!  
+In this special version of the classic game, **each player can have only 3 active moves** on the board at a time, making the gameplay more dynamic and strategic.
 
-There are two players: X and O.
+---
 
-Players take turns to place their symbol by entering a cell coordinate (e.g., A0, B2).
+## 📋 How the Game Works
 
-The goal is to align three of your symbols horizontally, vertically, or diagonally.
+- The board is a **3x3 grid**.
+- There are **two players**: `X` and `O`.
+- Players take turns placing their symbol by entering a cell coordinate (e.g., `A0`, `B2`).
+- The goal is to align **three of your symbols** horizontally, vertically, or diagonally.
 
-If the board is full and no one has won, the game ends in a draw.
+If the board fills up and no one wins, the game ends in a **draw**.
 
-🔥 Special Rule: Maximum 3 Active Moves
-Each player can have at most 3 symbols on the board at any time.
+---
 
-If a player already has 3 symbols when they make a new move:
+## 🔥 Special Rule: Maximum 3 Active Moves
 
-Their oldest symbol is automatically removed from the board.
+- Each player can have **at most 3 active symbols** on the board.
+- When a player makes a **fourth move**, their **oldest move** is automatically **removed**.
+  
+This rule adds a new level of strategy: you have to plan your moves carefully!
 
-This rule keeps the board changing and the strategy evolving!
+---
 
-🚀 How to Play
-Make sure you have Python 3 installed on your system.
+## 🚀 How to Play
 
-Download the tic_tac_toe.py file.
+1. Make sure you have **Python 3** installed.
+2. Download the file: `tic_tac_toe.py`.
+3. Open a terminal (or command prompt).
+4. Navigate to the folder where you saved the file.
+5. Run the game with the command:
 
-Open your terminal or command prompt.
-
-Navigate to the folder where tic_tac_toe.py is located.
-
-Run the game with:
-
-bash
-Copia
-Modifica
-python tic_tac_toe.py
-Follow the on-screen instructions to start playing!
+   ```bash
+   python tic_tac_toe.py
 
 🎯 Input Format
 When prompted, enter the cell coordinate where you want to place your move:
@@ -54,6 +51,10 @@ Modifica
 Player X's turn
 Enter the cell (e.g., 'A1' for the top center cell): B2
 🔄 Play Again
+
+
+
+
 After a match ends:
 
 Type s to start a new game (yes).
