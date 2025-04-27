@@ -1,4 +1,4 @@
-# 🕹️ Tic Tac Toe - 3-Move Variant + AI
+# 🕹️ Tic Tac Drop
 
 Welcome to **Tic Tac Toe** with a special rule and new game modes!  
 This version of the classic game features a **3-move active limit** and the option to challenge an **artificial intelligence** in two difficulty levels.
